@@ -18,9 +18,7 @@ A simple, beautiful, and minimalist note-taking application for Windows, built w
     - Close notes (`Ctrl+W`).
     - Rename notes (`F2`).
     - Save notes (`Ctrl+S`).
-- **Unsaved Indicator:** An asterisk (`*`) on a tab instantly shows you which notes have unsaved changes.
-- **Custom App Icon:** Features a custom application icon.
-
+    
 ---
 
 ## Setup & Installation
