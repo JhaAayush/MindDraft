@@ -1,0 +1,35 @@
+/* One Dark Pro Theme */
+QMainWindow { background-color: #282C34; }
+
+QTextEdit, QTextBrowser { background-color: #282C34; color: #ABB2BF; border: none; font-family: "Consolas", monospace; font-size: 14px; selection-background-color: #3E4451; }
+QSplitter::handle { background-color: #3E4451; }
+QSplitter::handle:horizontal { width: 1px; }
+
+/* Tab Widget Styling */
+QTabWidget::pane { border: none; }
+QTabWidget::tab-bar { alignment: left; }
+
+QTabBar::tab {
+    background: #282C34; color: #ABB2BF; padding: 8px 15px; border: 1px solid #282C34; border-bottom: none;
+}
+QTabBar::tab:selected { background: #3E4451; border: 1px solid #3E4451; border-bottom: none; }
+QTabBar::tab:!selected:hover { background: #31353f; }
+QTabBar::close-button { image: url(close.png); subcontrol-position: right; } /* Optional: for custom close icon */
+QTabBar::close-button:hover { background: #5C6370; }
+
+/* Menu and Status Bar */
+QMenuBar { background-color: #282C34; color: #ABB2BF; }
+QMenuBar::item:selected { background-color: #3E4451; }
+QMenu { background-color: #282C34; color: #ABB2BF; border: 1px solid #3E4451; }
+QMenu::item:selected { background-color: #61AFEF; color: #FFFFFF; }
+QStatusBar { color: #ABB2BF; }
+
+/* Pygments Syntax Highlighting for Preview Pane (One Dark Pro) */
+QTextBrowser .highlight .k { color: #C678DD; }
+QTextBrowser .highlight .s { color: #98C379; }
+QTextBrowser .highlight .c1 { color: #5C6370; font-style: italic; }
+QTextBrowser .highlight .kn { color: #C678DD; }
+QTextBrowser .highlight .nf { color: #61AFEF; }
+QTextBrowser .highlight .mi { color: #D19A66; }
+QTextBrowser .highlight .nb { color: #E5C07B; }
+QTextBrowser pre { background-color: #21252B; padding: 10px; border-radius: 4px; border: 1px solid #3E4451; }

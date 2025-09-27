@@ -1,0 +1,62 @@
+/* 2. New Solarized Light Theme */
+
+QMainWindow {
+    background-color: #fdf6e3; /* Base */
+}
+
+QTextEdit, QTextBrowser {
+    background-color: #eee8d5; /* Content BG */
+    color: #657b83; /* Main Text */
+    border: 1px solid #93a1a1;
+    font-family: "Segoe UI", "Calibri", sans-serif;
+    font-size: 14px;
+    selection-background-color: #93a1a1;
+    selection-color: #002b36;
+}
+
+QListWidget {
+    background-color: #eee8d5;
+    color: #657b83;
+    border: none;
+    font-size: 13px;
+    show-decoration-selected: 1;
+}
+
+QListWidget::item { padding: 5px; }
+QListWidget::item:selected {
+    background-color: #268bd2; /* Accent Blue */
+    color: #ffffff;
+}
+
+QMenuBar { background-color: #fdf6e3; color: #586e75; }
+QMenuBar::item:selected { background-color: #eee8d5; }
+
+QMenu {
+    background-color: #eee8d5;
+    color: #586e75;
+    border: 1px solid #93a1a1;
+}
+QMenu::item:selected { background-color: #268bd2; color: #ffffff; }
+
+QStatusBar { color: #586e75; }
+
+QSplitter::handle { background-color: #93a1a1; }
+QSplitter::handle:horizontal { width: 1px; }
+
+/* Pygments Syntax Highlighting for Solarized Light Preview */
+QTextBrowser .highlight .k { color: #859900; } /* Keyword */
+QTextBrowser .highlight .s, QTextBrowser .highlight .s1, QTextBrowser .highlight .s2 { color: #2aa198; } /* String */
+QTextBrowser .highlight .c, QTextBrowser .highlight .c1 { color: #93a1a1; font-style: italic; } /* Comment */
+QTextBrowser .highlight .kn { color: #cb4b16; } /* Keyword.Namespace */
+QTextBrowser .highlight .o { color: #859900; } /* Operator */
+QTextBrowser .highlight .p { color: #657b83; } /* Punctuation */
+QTextBrowser .highlight .n { color: #268bd2; } /* Name */
+QTextBrowser .highlight .nf { color: #268bd2; } /* Name.Function */
+QTextBrowser .highlight .mi { color: #d33682; } /* Number.Integer */
+QTextBrowser .highlight .nb { color: #b58900; } /* Name.Builtin */
+QTextBrowser pre {
+    background-color: #fdf6e3;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #eee8d5;
+}
